@@ -1,0 +1,5 @@
+{
+  "name": "StyleForge",
+  "description": "Curated UI components and CSS animations with live previews, inline editing, local persistence, and optional prompt-based generation.",
+  "requestFramePermissions": []
+}
