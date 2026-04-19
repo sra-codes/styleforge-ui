@@ -1,3 +1,5 @@
+![StyleForge banner](.github/assets/styleforge-banner.svg)
+
 # 🎨 StyleForge
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)

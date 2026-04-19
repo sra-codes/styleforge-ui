@@ -1,0 +1,127 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">StyleForge Banner</title>
+  <desc id="desc">Promotional banner for the StyleForge repository showing a modern UI component library and animation vault.</desc>
+  <defs>
+    <linearGradient id="bg" x1="62" y1="48" x2="1228" y2="608" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111B"/>
+      <stop offset="1" stop-color="#121D2A"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="26" y1="26" x2="1254" y2="614" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2AC4B7" stop-opacity="0.7"/>
+      <stop offset="0.52" stop-color="#F6E9C9" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#FF8A3D" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="logo" x1="82" y1="84" x2="168" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2AC4B7"/>
+      <stop offset="1" stop-color="#FF8A3D"/>
+    </linearGradient>
+    <linearGradient id="panelStroke" x1="744" y1="82" x2="1204" y2="558" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36CABB" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#FF8A3D" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 90) rotate(30) scale(340 220)">
+      <stop stop-color="#2AC4B7" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#2AC4B7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1050 120) rotate(12) scale(300 200)">
+      <stop stop-color="#FF8A3D" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#FF8A3D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 560) rotate(-18) scale(260 180)">
+      <stop stop-color="#F25F4C" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#F25F4C" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="white" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="softBlur" x="0" y="0" width="1280" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="cardShadow" x="700" y="42" width="560" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.0156863 0 0 0 0 0.0470588 0 0 0 0.45 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" rx="40" fill="#040A12"/>
+  <g filter="url(#softBlur)">
+    <ellipse cx="250" cy="90" rx="180" ry="120" fill="url(#glowA)"/>
+    <ellipse cx="1050" cy="120" rx="160" ry="120" fill="url(#glowB)"/>
+    <ellipse cx="1080" cy="560" rx="180" ry="120" fill="url(#glowC)"/>
+  </g>
+
+  <rect x="26" y="26" width="1228" height="588" rx="32" fill="url(#bg)"/>
+  <rect x="26" y="26" width="1228" height="588" rx="32" fill="url(#grid)"/>
+  <rect x="26" y="26" width="1228" height="588" rx="32" stroke="url(#frame)" stroke-width="2"/>
+
+  <rect x="82" y="84" width="86" height="86" rx="24" fill="url(#logo)"/>
+  <text x="125" y="140" text-anchor="middle" fill="#08111B" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="38" font-weight="800">SF</text>
+
+  <rect x="188" y="104" width="192" height="34" rx="17" fill="#0F1B29" stroke="#284557"/>
+  <text x="284" y="126" text-anchor="middle" fill="#C7D5E1" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1.5">UI COMPONENT FORGE</text>
+
+  <text x="82" y="262" fill="#F8F1DF" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="82" font-weight="800">StyleForge</text>
+  <text x="82" y="314" fill="#D2DFE8" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="28" font-weight="500">Curated UI components and CSS animations with live previews,</text>
+  <text x="82" y="354" fill="#D2DFE8" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="28" font-weight="500">inline editing, local favorites, and optional prompt-based generation.</text>
+
+  <rect x="82" y="404" width="176" height="48" rx="24" fill="#10202F" stroke="#2B6771"/>
+  <text x="170" y="434" text-anchor="middle" fill="#DDF7F3" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="18" font-weight="700">Live preview</text>
+
+  <rect x="274" y="404" width="188" height="48" rx="24" fill="#10202F" stroke="#325E6A"/>
+  <text x="368" y="434" text-anchor="middle" fill="#DDF7F3" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="18" font-weight="700">Inline editing</text>
+
+  <rect x="478" y="404" width="156" height="48" rx="24" fill="#10202F" stroke="#7D5A38"/>
+  <text x="556" y="434" text-anchor="middle" fill="#FFF0D7" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="18" font-weight="700">Favorites</text>
+
+  <rect x="82" y="470" width="194" height="48" rx="24" fill="#10202F" stroke="#7D5A38"/>
+  <text x="179" y="500" text-anchor="middle" fill="#FFF0D7" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="18" font-weight="700">Prompt drafts</text>
+
+  <rect x="292" y="470" width="242" height="48" rx="24" fill="#10202F" stroke="#2B6771"/>
+  <text x="413" y="500" text-anchor="middle" fill="#DDF7F3" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="18" font-weight="700">React + Tailwind output</text>
+
+  <text x="82" y="570" fill="#88A0B3" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="18" font-weight="600">Next.js 15   /   React 19   /   Tailwind CSS 4   /   Monaco   /   Zustand</text>
+
+  <g filter="url(#cardShadow)">
+    <rect x="744" y="82" width="460" height="476" rx="28" fill="#0C1522" stroke="url(#panelStroke)" stroke-width="2"/>
+  </g>
+  <rect x="768" y="106" width="412" height="44" rx="18" fill="#101B2A" stroke="#243548"/>
+  <circle cx="796" cy="128" r="6" fill="#FF8A3D"/>
+  <circle cx="818" cy="128" r="6" fill="#F5B65A"/>
+  <circle cx="840" cy="128" r="6" fill="#2AC4B7"/>
+  <rect x="874" y="118" width="268" height="20" rx="10" fill="#162435"/>
+
+  <rect x="768" y="170" width="96" height="360" rx="22" fill="#0F1B29" stroke="#233648"/>
+  <rect x="786" y="194" width="60" height="18" rx="9" fill="#2AC4B7" fill-opacity="0.22"/>
+  <rect x="786" y="226" width="52" height="14" rx="7" fill="#203347"/>
+  <rect x="786" y="252" width="64" height="14" rx="7" fill="#203347"/>
+  <rect x="786" y="278" width="54" height="14" rx="7" fill="#203347"/>
+  <rect x="786" y="336" width="48" height="48" rx="16" fill="#152435"/>
+  <rect x="786" y="396" width="48" height="48" rx="16" fill="#152435"/>
+
+  <rect x="886" y="170" width="294" height="164" rx="24" fill="#0F1A28" stroke="#243648"/>
+  <rect x="910" y="194" width="104" height="20" rx="10" fill="#FFF0D7" fill-opacity="0.14"/>
+  <rect x="910" y="230" width="180" height="16" rx="8" fill="#1C2A3C"/>
+  <rect x="910" y="256" width="148" height="16" rx="8" fill="#1C2A3C"/>
+  <rect x="910" y="286" width="246" height="24" rx="12" fill="url(#logo)"/>
+  <rect x="1096" y="194" width="60" height="92" rx="20" fill="#142435"/>
+  <circle cx="1126" cy="222" r="18" fill="#2AC4B7" fill-opacity="0.25"/>
+  <rect x="1108" y="252" width="36" height="10" rx="5" fill="#FFF0D7" fill-opacity="0.2"/>
+
+  <rect x="886" y="354" width="178" height="176" rx="24" fill="#0F1A28" stroke="#243648"/>
+  <rect x="906" y="376" width="76" height="16" rx="8" fill="#FF8A3D" fill-opacity="0.24"/>
+  <rect x="906" y="408" width="138" height="12" rx="6" fill="#1C2A3C"/>
+  <rect x="906" y="430" width="122" height="12" rx="6" fill="#1C2A3C"/>
+  <rect x="906" y="462" width="136" height="44" rx="20" fill="#1A2B3F" stroke="#325E6A"/>
+  <text x="974" y="489" text-anchor="middle" fill="#DDF7F3" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="16" font-weight="700">Preview card</text>
+
+  <rect x="1084" y="354" width="96" height="176" rx="24" fill="#0F1A28" stroke="#243648"/>
+  <rect x="1104" y="378" width="56" height="12" rx="6" fill="#2AC4B7" fill-opacity="0.24"/>
+  <rect x="1104" y="408" width="56" height="10" rx="5" fill="#203347"/>
+  <rect x="1104" y="430" width="40" height="10" rx="5" fill="#203347"/>
+  <rect x="1104" y="452" width="50" height="10" rx="5" fill="#203347"/>
+  <rect x="1104" y="484" width="56" height="24" rx="12" fill="#FFF0D7" fill-opacity="0.12"/>
+
+  <rect x="1008" y="74" width="170" height="42" rx="21" fill="#142334" stroke="#2B6771"/>
+  <text x="1093" y="100" text-anchor="middle" fill="#DDF7F3" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif" font-size="16" font-weight="700">Build faster UI ideas</text>
+</svg>
